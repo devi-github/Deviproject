@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 	  WebDriverManager.chromedriver().setup();
 	  ChromeDriver x=new ChromeDriver();
 	  x.get("http://www.google.co.in");
-	  Thread.sleep(5000);
+	  Thread.sleep(50000);
 	  x.close();
 		}
 
